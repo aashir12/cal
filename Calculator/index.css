@@ -1,0 +1,58 @@
+*{
+    padding: none;
+    margin: none;
+    box-sizing: border-box;
+}
+body{
+    background-color: #131417;
+}
+.cal-Cover{
+    height: 70vh;
+    width: 40vw;
+    border: 1px solid;
+    border-radius: 2%;
+    margin: 15vh auto;
+    background-color: #191B28;
+    padding: 1%;
+
+}
+.cal{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 20% 80%;
+}
+.Output-Cal{
+    height: 28%;
+    width: 100%;
+    border: 1px solid;
+}
+input{
+    width: 100%;
+    height: 100%;
+    font-size: 400%;
+    border-radius: 2.5%;
+    background-color: #FFFFFF;
+    border: none;
+}
+
+.Input-Cal{
+    width: 100%;
+    height: 72%;
+ display: grid;
+ grid-template-columns: 25% 25% 25% 25%;
+}
+.styler{
+    background-color: #65268F;
+    margin: 1px;
+    text-align: center;
+    padding-top: 25%;
+    border-radius: 10%;
+    font-weight: bolder;
+}
+.styler:hover{
+    color:#fff;
+    background-color: #000;
+    cursor: pointer;
+}
